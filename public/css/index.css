@@ -1,0 +1,140 @@
+/* ====== Estilos index ====== */
+
+.fecha-noticia {
+    color: #888;
+    font-size: 0.95em;
+    margin-left: 0;
+}
+
+.container-noticia{
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-noticia p {
+    font-size: 20px;
+}
+
+.container-noticia img{
+    min-width:370px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-noticia {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.menu-noticias  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comentarios {
+    width: 600px;
+    background: #b3b3b3;
+    padding: 20px 10px;
+    margin: 30px auto 30px auto;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.comentarios h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #222;
+}
+.comentarios-form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px 15px;
+}
+.comentarios-form label {
+    font-size: 16px;
+    color: #333;
+}
+.comentarios-form input,
+.comentarios-form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+}
+.comentarios-form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.comentarios-form button:hover {
+    background: #0056b3;
+}
+
+.comentarios-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.conformidad-fieldset {
+    border: none;
+    margin: 10px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.conformidad-fieldset legend {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.conformidad-fieldset label {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.comentarios-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.comentarios-form .visual-hidden {
+    display: none;
+}
+
+
+.comentarios-form .error-message {
+    color: #ef0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.comentarios-form .input-error {
+    border:3px solid #ef0000;
+}
+.comentarios-form .input-correct {
+    border:3px solid #00ef00;
+}
