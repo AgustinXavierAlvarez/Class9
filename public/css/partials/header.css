@@ -1,0 +1,134 @@
+/* ========== Estilos Header========= */
+
+header {
+    border-bottom: #7c7c7c solid 1px;
+    width: 100%;
+}
+
+.wrapper-header {
+    max-width: 380px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo-header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    width: min-content;
+}
+
+.logo-header .logo {
+    width: 60px;
+    height: auto;
+}
+
+.logo-header > h1 {
+    display: none;
+}
+
+.menu-header {
+    display: none;
+}
+
+.menu-header .menu-nav {
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-header .menu-nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.language-select {
+    font-size: 20px;
+}
+
+.language-select > label {
+    font-size: 20px;
+}
+
+.language-select select {
+    padding: 5px;
+    font-size: 22px;
+}
+
+.redes-sociales {
+    display: none;
+}
+
+.redes-sociales a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.redes-sociales a[href*="facebook"] { 
+    background: #1877f3; 
+}
+
+.redes-sociales a[href*="twitter"] { 
+    background: #1da1f2; 
+}
+
+.redes-sociales a[href*="instagram"] {
+    background: radial-gradient(circle at 30% 110%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.redes-sociales a:hover { 
+    opacity: 0.8; 
+}
+
+.button-burger {
+    display: block;
+    font-size: 26px;
+}
+
+.button-burger button {
+    background: none;
+    cursor: pointer;
+    font-size: 40px;
+    color: #333;
+    border: none;
+}
+
+.breadcrumb-fecha {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 0 5px;
+    font-size: 16px;
+    margin: 20px auto 10px auto;
+}
+
+.breadcrumb a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
