@@ -69,6 +69,14 @@
     .button-burger {
         display: block !important;
     }
+    
+    .comentarios-form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px 15px;
+    }   
 
      .footer-content{
         font-size: 20px;
